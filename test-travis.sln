@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test-travis", "test-travis\test-travis.csproj", "{4A49E8D0-2B14-4B76-9324-309CF2273715}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A49E8D0-2B14-4B76-9324-309CF2273715}.Debug|x86.ActiveCfg = Debug|x86
+		{4A49E8D0-2B14-4B76-9324-309CF2273715}.Debug|x86.Build.0 = Debug|x86
+		{4A49E8D0-2B14-4B76-9324-309CF2273715}.Release|x86.ActiveCfg = Release|x86
+		{4A49E8D0-2B14-4B76-9324-309CF2273715}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = test-travis\test-travis.csproj
+	EndGlobalSection
+EndGlobal
