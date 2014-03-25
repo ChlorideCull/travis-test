@@ -5,7 +5,7 @@ before_install:
     - echo | sudo add-apt-repository ppa:v-kukol/mono-testing
     - sudo apt-get update
 install:
-    - sudo apt-get install wget curl zip mono
+    - sudo apt-get install wget curl zip mono-complete
 script:
     - mdtool build -t:Build "-c:Release|x86"
 after_success:
